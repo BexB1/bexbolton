@@ -1,3 +1,8 @@
+body {
+  background-color: #282c34;
+  font-size: 18px;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +19,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,19 +26,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .jumbotron {
@@ -45,4 +36,36 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.quote {
+  font-size: 0.85rem;
+}
+
+.cta {
+  background-color: #0073b1;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: bold;
+  max-width: 90%;
+  padding: 0.5rem 0.8rem;
+  text-decoration: none;
+  align-self: center;
+}
+
+.cta:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 2% 5%;
+  }
 }
