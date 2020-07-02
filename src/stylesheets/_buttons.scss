@@ -1,0 +1,8 @@
+.btn {
+  background-color: $brand-highlight;
+  font-weight: bold;
+  padding: 0.8rem 0.5rem;
+  &:hover {
+    background-color: darken($brand-highlight, 10%);
+  }
+}
