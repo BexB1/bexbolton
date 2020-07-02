@@ -1,0 +1,19 @@
+.hero {
+  background-color: #c4c4c4;
+  // height: 700px;
+  &__inner {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    margin: 100px auto;
+    padding: 0;
+    .img {
+      background-color: #999999;
+      width: 40%;
+    }
+    .copy {
+      max-width: 60%;
+    }
+  }
+}
