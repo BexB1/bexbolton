@@ -28,7 +28,7 @@ function App() {
               </div>
               <div className="footer">
                 <a href="https://www.linkedin.com/in/bexbolton">
-                  <button className="cta">
+                  <button className="btn">
                     Check out my LinkedIn profile instead
                   </button>
                 </a>
