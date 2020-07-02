@@ -1,0 +1,30 @@
+.header {
+  color: $brand-dark;
+  background-color: #fff;
+  height: 60px;
+  border-bottom: 1px solid $brand-dark;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .header__nav {
+      list-style: none;
+      margin: 0;
+      li {
+        display: inline;
+        padding-left: 20px;
+        a {
+          color: $brand-dark;
+          font-weight: bold;
+          &:hover {
+            border-bottom: 2px solid $brand-highlight;
+            color: $brand-highlight;
+            padding-bottom: 5px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
