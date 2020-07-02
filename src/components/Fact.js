@@ -13,12 +13,10 @@ let number = Math.floor(Math.random() * facts.length);
 function Fact() {
   return (
     <div className="quote">
-      <p>
-        <em>
-          <strong>Did you know? </strong>
-          {facts[number]}
-        </em>
-      </p>
+      <em>
+        <strong>Did you know? </strong>
+        {facts[number]}
+      </em>
     </div>
   );
 }

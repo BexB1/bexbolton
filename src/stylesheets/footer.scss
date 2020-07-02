@@ -1,0 +1,11 @@
+.footer {
+  background-color: $brand-dark;
+  color: #fff;
+  font-size: 0.8rem;
+  height: 60px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

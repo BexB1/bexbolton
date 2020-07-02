@@ -1,7 +1,7 @@
 import React from "react";
-import Fact from "./Fact";
 import Container from "react-bootstrap/Container";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -26,18 +26,18 @@ function App() {
                 <p>- Bex</p>
                 <em>23 June 2020</em>
               </div>
-              <div className="footer">
+              <div className="">
                 <a href="https://www.linkedin.com/in/bexbolton">
                   <button className="btn">
                     Check out my LinkedIn profile instead
                   </button>
                 </a>
-                <Fact />
               </div>
             </div>
           </header>
         </Col>
       </Row>
+      <Footer />
     </Container>
   );
 }
