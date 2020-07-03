@@ -1,20 +1,30 @@
 .hero {
   // background-color: #c4c4c4;
-  // height: 700px;
   &__inner {
     background-color: #fff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: space-between;
-    height: 500px;
     margin: 100px auto;
     padding: 0;
-    .img {
-      background-color: #999999;
-      width: 40%;
+    @media screen and (max-width: 500px) {
+      align-items: center;
+      flex-direction: column;
+      margin: 0;
+      padding: 1px;
+    }
+    img {
+      max-width: 90%;
     }
     .copy {
-      max-width: 60%;
+      // max-width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: 500px) {
+        padding: 5% !important;
+      }
     }
   }
 }

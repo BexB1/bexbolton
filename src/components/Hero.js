@@ -1,6 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import HeroPic from "../images/hero_pic.png";
 
 function Hero() {
   return (
@@ -10,24 +11,12 @@ function Hero() {
         md={{ span: 10, offset: 1 }}
         className="hero__inner"
       >
-        <div className="img">Img</div>
+        <img src={HeroPic} />
         <div className="copy p-5">
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-          <p className="font-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in
-            id pharetra, fermentum vitae sit vivamus.
-          </p>
+          <h1>I'm Bex Bolton, a Web Developer in London, England.</h1>
           <p className="font-md">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in
-            id pharetra, fermentum vitae sit vivamus.
-          </p>
-          <p className="font-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in
-            id pharetra, fermentum vitae sit vivamus.
-          </p>
-          <p className="font-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in
-            id pharetra, fermentum vitae sit vivamus.
+            I'm currently in the process of rebuilding this site from scratch.
+            Please check back soon. Thanks for visiting!
           </p>
           <a className="btn">Do a thing</a>
         </div>
