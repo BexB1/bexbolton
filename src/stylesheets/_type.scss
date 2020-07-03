@@ -1,6 +1,21 @@
 $font-stack: Helvetica, sans-serif;
 
-body {
-  color: $brand-dark;
-  font-family: $font-stack;
+// Sizes
+$font-sizes: (
+  sm: 0.8rem,
+  md: 1rem,
+  lg: 1.2rem,
+  xl: 1.4rem,
+);
+
+@mixin font-sizes {
+  @each $name, $size in $font-sizes {
+    &-#{$name} {
+      font-size: $size;
+    }
+  }
+}
+
+.font {
+  @include font-sizes;
 }

@@ -1,5 +1,15 @@
 @import "./stylesheets/index.scss";
 
+html {
+  font-size: 16px;
+}
+
 body {
-  font-size: 18px;
+  background-color: $brand-dark;
+  color: $brand-dark;
+  font-family: $font-stack;
+}
+
+.logo {
+  height: 25px;
 }
