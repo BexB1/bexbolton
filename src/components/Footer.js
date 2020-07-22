@@ -9,7 +9,7 @@ function Footer() {
       <Col lg={{ span: 10, offset: 1 }} className="footer__inner">
         <span>&copy; Becky Bolton</span>
         <Fact />
-        <span>Last updated...</span>
+        <span>Last updated July 2020</span>
       </Col>
     </Row>
   );

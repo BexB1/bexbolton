@@ -14,3 +14,16 @@ body {
 .logo {
   height: 25px;
 }
+
+.contacts {
+  color: $brand-highlight;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  img {
+    max-width: 100%;
+  }
+  > * {
+    margin-right: 10px;
+  }
+}
